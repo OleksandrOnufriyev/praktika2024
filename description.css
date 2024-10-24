@@ -1,0 +1,112 @@
+body{
+	background-color:white;
+	font-family:arial;
+	color:black;
+	
+}
+#description-page {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; 
+}
+
+.product-info {
+    width: 50%; /* Половина ширини контейнера */
+}
+
+.product-image {
+    width: 30%; /* Половина ширини контейнера */
+}
+
+.product-description {
+    margin-top: 20px; /* Відступ від назви мотоцикла */
+}
+
+.product-specs {
+    margin-top: 20px; /* Відступ від опису */
+}
+
+.product-specs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-specs li {
+    margin-bottom: 5px;
+}
+
+header{
+	background-color:white;
+	top:0;
+	padding:1px 1px 3px 1px;
+	width:1400px;
+	height: 170px;
+	margin:0 auto;
+	border:2px solid black;
+	box-shadow:0px 0px 20px black;
+}
+nav ul{
+	list-style:none;
+	overflow:hidden;
+}
+nav ul li{
+	float:left;
+	padding:0px 25px;
+	border-left: 1px solid #3399FF;
+	
+}
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+
+}
+div#d1{
+	width:1100px;
+	height: 300;
+	margin:0 auto;
+}
+nav ul li a:hover{
+	color:#3399FF;
+}
+
+#description-page h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#description-page .product-image {
+    width: 400px;
+    margin-right: 20px;
+    float: left;
+}
+
+#description-page .product-info {
+    float: left;
+    width: calc(100% - 420px); /* Віднімаємо ширину картинки та margin-right */
+}
+
+#description-page .product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#description-page .product-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#description-page .buy-button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#description-page .buy-button:hover {
+    background-color: #3399FF;
+}
