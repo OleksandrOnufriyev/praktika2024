@@ -16,6 +16,6 @@ setInterval(updateImage, 5000);
     });
 function handleFormSubmit(event) {
     event.preventDefault();
-    alert("Продаж мотоцикла успішно здійснено!");
+    alert("Продаж успішно здійснено!");
     return false; 
 }
