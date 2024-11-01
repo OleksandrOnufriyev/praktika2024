@@ -1,8 +1,8 @@
 <?php
-$HOST = 'sql307.infinityfree.com';
-$USER = 'if0_36668472';
+$HOST = 'localhost';
+$USER = 'oleksandr188';
 $PASS = 'S78345678sd';
-$DB = 'if0_36668472_oleksandr';
+$DB = 'oleksandr188';
 $conn = mysqli_connect($HOST,$USER,$PASS,$DB);
 mysqli_set_charset($conn,"utf8");
 
@@ -47,7 +47,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     echo $row["img"];
 } else {
-    echo "img/logo_anim8.jpeg";
+    echo "img/anim8.jpeg";
 }
 
 $conn->close();
